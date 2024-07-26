@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ZJU Connect</string>
+    <string name="app_name">HITSZ Connect</string>
     <string name="previous">上一段</string>
     <string name="started">已启动！</string>
     <string name="stopped">已停止！</string>

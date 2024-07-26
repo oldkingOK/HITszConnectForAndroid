@@ -1,1 +1,1 @@
-# ZJU Connect for Android
+# HITSZ Connect for Android

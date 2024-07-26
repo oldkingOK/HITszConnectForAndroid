@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "zjuconnect")
                     .setSmallIcon(R.drawable.ic_launcher_foreground)
-                    .setContentTitle("ZJU Connect")
+                    .setContentTitle("HITSZ Connect")
                     .setContentText(getResources().getString(R.string.connected));
 
             builder.setOngoing(true);
