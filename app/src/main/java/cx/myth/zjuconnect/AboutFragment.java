@@ -19,6 +19,8 @@ public class AboutFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = FragmentAboutBinding.inflate(inflater, container, false);
 
+        binding.linkTextViewOk.setMovementMethod(LinkMovementMethod.getInstance());
+        binding.linkTextViewOk.setText("https://github.com/oldkingOK/ZJUConnectForAndroid");
         binding.linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
         binding.linkTextView.setText("https://github.com/Mythologyli/ZJUConnectForAndroid");
 

@@ -34,7 +34,6 @@
                 android:layout_height="20dp" />
 
             <TextView
-                android:id="@+id/nameTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
@@ -48,7 +47,60 @@
                 android:layout_height="20dp" />
 
             <TextView
-                android:id="@+id/authorTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author: oldkingOK"
+                android:textAlignment="center"
+                android:textAllCaps="false" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Version: 0.1.0"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date: 2024.07.26"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/linkTextView_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:linksClickable="true"
+                android:textAlignment="center" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="Based on:"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:text="ZJU Connect for Android"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Author: Myth"
@@ -56,15 +108,10 @@
                 android:textAllCaps="false" />
 
             <TextView
-                android:id="@+id/versionTextView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Version: 0.1.0"
                 android:textAlignment="center" />
-
-            <Space
-                android:layout_width="match_parent"
-                android:layout_height="20dp" />
 
             <TextView
                 android:id="@+id/linkTextView"
