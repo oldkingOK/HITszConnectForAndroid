@@ -20,7 +20,7 @@ public class AboutFragment extends Fragment {
         binding = FragmentAboutBinding.inflate(inflater, container, false);
 
         binding.linkTextViewOk.setMovementMethod(LinkMovementMethod.getInstance());
-        binding.linkTextViewOk.setText("https://github.com/oldkingOK/ZJUConnectForAndroid");
+        binding.linkTextViewOk.setText("https://github.com/oldkingOK/HITszConnectForAndroid");
         binding.linkTextView.setMovementMethod(LinkMovementMethod.getInstance());
         binding.linkTextView.setText("https://github.com/Mythologyli/ZJUConnectForAndroid");
 
